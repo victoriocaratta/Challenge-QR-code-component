@@ -6,24 +6,56 @@ body {
 .code {
     position: relative;
     display: inline-block;
-    width: 370px;
-    height: 550px;
+    width: 340px;
+    height: 500px;
+    align-items: center;
     background-color: hsl(0, 0%, 100%);
-    padding: 40px 10px;
-    border-radius: 15px;
+    padding: 20px 10px;
+    border-radius: 20px;
 }
 
 .code img {
     position: absolute;
-    display: inline-block;
-    align-items: top;
     margin: 0 9px;
-    width: 350px;
-    border-radius: 15px;
+    width: 320px;
+    border-radius: 20px;
 }
 
-.text h1 p {
+.text {
     position: absolute;
+    display: inline;
+    width: 300px;
+    top: 360px;
+    left: 0px;
+    margin: 0 3%;
+    box-sizing: border-box;
     text-align: center;
 }
 
+.text h1 {
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    
+
+}
+
+.text p {
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    margin: 0 3%;
+    box-sizing: border-box;
+
+
+}
+
+.attribution {
+    position: absolute;
+    display: inline;
+    margin: 0 50px;
+    padding-top: 20px;
+
+
+    
+}
